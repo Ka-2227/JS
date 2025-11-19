@@ -21,7 +21,7 @@ function startSlideShow() {
 }
 
 function loadImages() {
-    fetch('Images.json')
+    fetch('images.json')
         .then(response => response.json())
         .then(data => {
             images = data;
