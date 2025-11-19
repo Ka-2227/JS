@@ -20,6 +20,7 @@ function startSlideShow() {
     setInterval(changeImage, 5000);
 }
 
+
 function loadImages() {
     fetch('images.json')
         .then(response => response.json())
